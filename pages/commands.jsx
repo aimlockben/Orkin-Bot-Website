@@ -68,7 +68,7 @@ export default function Commands() {
 
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-  <Link href={"https://discord.com/oauth2/authorize?client_id=1130086603478548599&scope=bot&permissions=9059871806"}>
+  <Link href={"https://bit.ly/3QjcCTG"}>
   <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
 Invite Orkin</a>
   </Link>
@@ -82,7 +82,7 @@ Support Server</a>
 
   <div className="py-10"></div>
   
-  <Link href={"https://top.gg/bot/1130086603478548599/vote"}>
+  <Link href={"https://bit.ly/3QoDuSf"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
 Vote Orkin</a>
   </Link>
