@@ -21,7 +21,7 @@ export default function Commands() {
          Bot Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the Astra Bot.
+        You can get information about the commands of the Orkin Bot.
         </p>
 
         <div>
@@ -55,7 +55,7 @@ export default function Commands() {
                     <button className={`w-full rounded-lg p-2 cursor-pointer text-white flex items-center space-x-3 transition-all duration-200`}>
                     <>
                           <i className="fa-spin text-xl text-white text-opacity-20" />
-                         {astra}</>
+                         {orkin}</>
                     </button>
                     </Menu.Item>
             ))}
