@@ -3,12 +3,27 @@ import Link from "next/link";
 
 export default function Commands() {
   const commands = [
-    "!yardım",
-    "!yardım ayarlamalı",
-    "!yardım eğlence",
-    "!yardım kullanıcı",
-    "!yardım yetkili",
-    "!yardım bot"
+    "/help",
+    "/invite",
+    "/lyrics",
+    "/ping",
+    "/stats",
+    "/setdj",
+    "/play",
+    "/serach",
+    "/stop",
+    "/skip",
+    "/back",
+    "/clear",
+    "/time",
+      "/queue",
+      "/pause",
+      "/resume",
+      "/volume",
+      "/nowplaying",
+      "/save",
+      "/loop",
+      "/filter"
       ]
   return (
     <>
@@ -21,7 +36,7 @@ export default function Commands() {
          Bot Commands
         </p>
         <p className="text-white text-sm text-opacity-50 mb-5">
-        You can get information about the commands of the Orkin Bot.
+        You can get information about the commands of the Astra Bot.
         </p>
 
         <div>
@@ -49,13 +64,13 @@ export default function Commands() {
               <Menu.Items className="z-1 custom-scroll absolute left-0 w-full mt-2 origin-top-right bg-black overflow-auto max-h-60 border border-black border-opacity-20 bg-opacity-95 rounded-lg p-1">
                 <div className="px-1 py-1 w-full">
 
-            {commands.map(orkin => (
+            {commands.map(astra => (
 
                 <Menu.Item>
                     <button className={`w-full rounded-lg p-2 cursor-pointer text-white flex items-center space-x-3 transition-all duration-200`}>
                     <>
                           <i className="fa-spin text-xl text-white text-opacity-20" />
-                         {orkin}</>
+                         {astra}</>
                     </button>
                     </Menu.Item>
             ))}
@@ -68,9 +83,9 @@ export default function Commands() {
 
         <div className="animateHeader mt-10 flex flex-wrap items-center justify-center gap-x-4">
   
-  <Link href={"https://bit.ly/3QjcCTG"}>
+  <Link href={"https://bit.ly/3PHDjyC"}>
   <a className={"flex items-center px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Invite Orkin</a>
+Invite Astra</a>
   </Link>
 
   <div className="py-10"></div>
@@ -82,9 +97,9 @@ Support Server</a>
 
   <div className="py-10"></div>
   
-  <Link href={"https://bit.ly/3QoDuSf"}>
+  <Link href={"https://bit.ly/3LYzaDe"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
-Vote Orkin</a>
+Vote Astra</a>
   </Link>
 </div>
 
